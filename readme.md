@@ -144,6 +144,15 @@ Read up on the [Cursors documentation](http://developer.android.com/reference/an
 
 Cursors make accessing the data retrieved from our databases extremely easy and fast. Additionally, they are easily linked to other helpful classes we've used. In a later lesson, we will see something called a `CursorAdapter`, which acts just like an ArrayAdapter, but for Cursors.
 
+## Homework Legends of the Hidden Temple
+
+You are stuck with a half-completed app for your favorite gameshow after your friend quit halfway through. Add the following functionality to the app so we can ship it:
+
+- Make sure that info scores aren't added to a game already in the database (in table games, column games)
+- Add a button to reset the database so we can add new things if we want
+- Populate the mostGamesWon textview in StatsActivity
+- Populate the longestStreak textview in StatsActivity
+
 ***
 
 ### ADDITIONAL RESOURCES
