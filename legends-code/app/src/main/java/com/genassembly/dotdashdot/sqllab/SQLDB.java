@@ -151,6 +151,7 @@ public class SQLDB extends SQLiteOpenHelper {
     }
 
     public boolean insertGame(int team, int points, boolean foundIdol, int game) {
+        /* TODO : Check to make sure the game doesn't already exist in the database*/
         SQLiteDatabase db = this.getWritableDatabase();
         games.insertRow(db, team, points, foundIdol, game);
         return true;
